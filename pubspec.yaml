@@ -1,0 +1,51 @@
+name: smart_camera_app
+description: A Smart Camera App in Flutter with AI Filters using GetX
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  get: ^4.6.6
+
+  # Camera
+  camera: ^0.10.5+9
+
+  # Image Processing & AI Filters
+  image: ^4.1.7
+
+  # ML Kit - Face Detection
+  google_mlkit_face_detection: ^0.10.0
+
+  # Gallery Save
+  gallery_saver: ^2.3.2
+  # Permissions
+  permission_handler: ^11.3.1
+
+  # Local Storage
+  shared_preferences: ^2.2.3
+
+  # Path
+  path_provider: ^2.1.3
+  path: ^1.9.0
+
+  # UI
+  flutter_animate: ^4.5.0
+  lottie: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/lottie/
