@@ -7,7 +7,7 @@ import 'dart:convert';
 import 'dart:io';
 import 'dart:typed_data';
 import 'package:get/get.dart';
-import 'package:gallery_saver/gallery_saver.dart';
+import 'package:gal/gal.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../models/ai_filter_model.dart';
@@ -40,7 +40,7 @@ class GalleryService extends GetxService {
 
       // Save to device gallery
 // Save to device gallery
-      await GallerySaver.saveImage(file.path);
+      await Gal.putImage(file.path);
 
       final model = CapturedImageModel(
         path:          file.path,

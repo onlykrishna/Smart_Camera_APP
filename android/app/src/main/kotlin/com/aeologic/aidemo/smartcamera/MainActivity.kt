@@ -1,4 +1,4 @@
-package com.example.smart_camera_app
+package com.aeologic.aidemo.smartcamera
 
 import io.flutter.embedding.android.FlutterActivity
 
